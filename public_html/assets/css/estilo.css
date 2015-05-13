@@ -1,79 +1,77 @@
-*{
-	margin: 0px;
-	padding: 0px;
-	box-sizing:border-box;
+
+header{
+		background-image: url(../images/banner_index.jpg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		margin-right: auto;
+		margin-left: auto;
+
 }
 
-body,html{
+.navbar-default{
+	border: 0;
+	border-bottom: 1px solid #6E6E6E;
+	padding: 8px 20px;
+	height: 40px;
 	width: 100%;
-	height: 100%;
+	float: left;
 }
 
-body{
-	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-	background-image: url(../images/cafe2.jpg);
-	background-repeat: no-repeat;
-	background-position: center top;
-	}
+div, h1 {
+  padding: 94px 150px 0px 150px;
+}
+
+h1{
+	text-align: center;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 60px;
+	margin-left: -3px;
+	line-height: 1;
+	letter-spacing: -0.04em;
+}
+
+hr{
+	max-width: 100px;
+	border-color: #f05f40;
+	border-width: 3px;
+	border: 0;
+	border-top: 3px solid #f05f40;
+	height: 0;
+	box-sizing: content-box;
+	margin-left: 50%;
+	margin: 23px auto;
+}
+
+h2 {
+	text-align: center;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 27px;
+	line-height: 1;
+	letter-spacing: -0.04em;
+	margin-top: 30px;
+	padding: 0px 0px 209px;
+}
+
+
+h3{
+	text-align: center;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 60px;
+	margin-left: -3px;
+	line-height: 1;
+	letter-spacing: -0.04em;
+}
 
 p{
 	margin-top: 5px;
 	margin-bottom: 5px;
 	color: #282828;
+	letter-spacing: .01rem;
+	font-weight: 400;
+	font-style: normal;
 	font-size: 22px;
-	font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
-}
-
-.navbar-default{
-	position: fixed;
-	float: left;
-	top: 0px;
-	left: 0px;
-	height: 50px;
-	color: #fff;
-	background-color: transparent;
-	width: 100%;
-	z-index: 10;
-	box-shadow: 0px 0px 10px #000;
-}
-
-.search{
-	border-color: #fff;
-	border: 3px;
-}
-
-h1{
-	font-weight: bold;
-	font-size: 40px;
-
-}
-
-h2{
-	font-weight: normal;
-	font-size: 30px;
-}
-
-hr {
-  max-width: 50px;
-  border-color: #ffa300;
-  border-width: 3px;
-  display: block;
-  margin: 0 50px 0 50px;
-}
-
-.header{
-	color: #fff;
-}
-
-.header-content{
-	position: absolute;
-	top: 40%;
-	padding: 0px 60px 0px 60px;
-	text-align: center;
-	font-size: 60px;
-}
-
-
-.card{
-
-}
+	line-height: 1.5;
+  }
